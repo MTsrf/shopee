@@ -13,7 +13,7 @@ import os
 import django_heroku
 
 from pathlib import Path
-from tkinter import E
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-pak62z#2x+b0b85$on7k1p%-pq!&0(v17)$p2j*=)g%_20s5ou'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['shopee.herokuapp.com']
 
