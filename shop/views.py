@@ -1,5 +1,4 @@
 from importlib import import_module
-from msilib.schema import Class
 from urllib import request
 from django.shortcuts import render,redirect
 from . models import Customer, Product, Cart, OrderPlaced
