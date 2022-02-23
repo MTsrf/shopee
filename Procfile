@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn shoper.wsgi --log-file=-
+web: gunicorn shopee.wsgi --log-file=-
